@@ -1,9 +1,8 @@
 import requests
-from flask import  jsonify
 import urllib.parse
 
 
-network_url = "https://8b44-2c0f-ef58-1202-c900-f668-4741-2b8a-6d94.ngrok-free.app"
+network_url = "https://test-swart-one-35.vercel.app/"
 
 instance_value = "instance46258"
 

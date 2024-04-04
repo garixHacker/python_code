@@ -1,9 +1,18 @@
-from flask import Flask, jsonify, request , send_from_directory, send_file
+from flask import Flask, jsonify, request , send_from_directory
 from flask_cors import CORS
 import notif_whatsapp
 
 app = Flask(__name__)
 CORS(app)
+
+
+
+
+@app.route('/')
+def home():
+
+    return "Hello welcome to back-end python"
+
 
 
 
